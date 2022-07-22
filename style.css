@@ -1,0 +1,26 @@
+nav .logo {
+   width: 160px;
+   margin-left: 50%;
+   margin-right: 50%;
+   margin-bottom: -20px;
+}
+nav .nav_links{
+    display: block;
+    text-align: center;
+}
+nav .nav_links li {
+    display: inline-block;
+}
+nav .nav_links li a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+nav .nav_links li a:hover {
+    color: orange;
+}
+.main_banner_img {
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+}
