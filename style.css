@@ -54,12 +54,36 @@ nav .nav_links li a:hover {
 /* banner end */
 
 #sevices {
-    width: 768px;
+    width: auto;
     margin: auto;
-    border: 1px solid red;
 }
+.services_upper{
+    margin: 60px 0 0px 0;
+}
+
 #sevices .services_upper h1,
 #sevices .services_upper p {
     margin: 0px;
     padding: 0px;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.content .content_body {
+    line-height: 1.5;
+    margin-left: 35px;
+} 
+.content {
+    display: flex;
+    width: 90%;
+    padding: 45px;
+    text-align: center;
+    height: auto;
+}
+.content .content_body .content_border {
+    border: ridge;
+    font-size: x-large;
+    padding-top: 10px;
 }
