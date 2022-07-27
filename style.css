@@ -52,3 +52,14 @@ nav .nav_links li a:hover {
 }
 
 /* banner end */
+
+#sevices {
+    width: 768px;
+    margin: auto;
+    border: 1px solid red;
+}
+#sevices .services_upper h1,
+#sevices .services_upper p {
+    margin: 0px;
+    padding: 0px;
+}
