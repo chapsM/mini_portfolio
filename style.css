@@ -1,3 +1,10 @@
+html,body {
+    width: 100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
 nav .logo {
    width: 160px;
    margin-left: 47%;
@@ -19,36 +26,43 @@ nav .nav_links li a {
 nav .nav_links li a:hover {
     color: orange;
 }
+
+/* main banner  */
+
+.main_banner_2 {
+    display: flex;
+}
 .main_banner_img {
     width: 100%;
     height: auto;
     margin-top: 35px;
-    position: relative;
+    display: inline-block;
 }
 .main_banner h1 {
-    position: absolute;
-    bottom: 42%;
-    left: 30%;
+    display: inline-block;
+    margin: 16% -50px 0 -69%;
     font-size: xxx-large;
     text-transform: uppercase;
     color: aliceblue;
 }
 .main_banner p {
-    position: absolute;
-    bottom: 39%;
-    left: 37%;
+    display: inline-block;
     font-size: 21px;
     font-style: italic;
     color: aliceblue;
+    margin: 22% -50px 0 -35%;
 }
 .main_banner .button {
-    position: absolute;
-    bottom: 33%;
-    left: 50%;
+    display: inline-block;
     font-size: 28px;
-    color: white;
+    color: linen;
     background: transparent;
     border: 3px solid white;
+    margin: 1% -65% 0px 35%;
+}
+.main_banner .button a {
+    color: aliceblue;
+    text-decoration: none;
 }
 
 /* banner end */
@@ -86,4 +100,10 @@ nav .nav_links li a:hover {
     border: ridge;
     font-size: x-large;
     padding-top: 10px;
+    text-transform: uppercase;
 }
+
+/* .middle_img {
+    width: 100%;
+    display: block;
+} */
