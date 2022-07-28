@@ -3,10 +3,10 @@ html,body {
     height:100%;
     margin:0;
     padding:0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 .container {
-    height:1482px;
+    height:auto;
     width: 1484px;
 }
 
@@ -108,7 +108,31 @@ nav .nav_links li a:hover {
     text-transform: uppercase;
 }
 
-.middle_img {
-    width: 100%;
+.container .middle_img {
     display: block;
+}
+
+.middle_img  .middle_img_img {
+    width: 100%;
+    height: 340px;
+}
+.middle_img .middle_img_p {
+    font-size: -webkit-xxx-large;
+    color: antiquewhite;
+    font-family: cursive;
+    display: flex;
+    margin: -17% 0 40px 42%;
+}
+.middle_img .button_2 {
+    display: inline-block;
+    font-size: 28px;
+    color: linen;
+    background: transparent;
+    border: 3px solid antiquewhite;
+    margin: 0% 0px 0px 50%;
+    
+}
+.middle_img .button_2 a {
+    color: blanchedalmond;
+    text-decoration: none;
 }
