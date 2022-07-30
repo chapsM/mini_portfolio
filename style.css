@@ -93,6 +93,7 @@ nav .nav_links li a:hover {
 .content .content_body {
     line-height: 1.5;
     margin-left: 35px;
+    font-family: system-ui;
 } 
 .content {
     display: flex;
@@ -180,3 +181,51 @@ nav .nav_links li a:hover {
 }
 
 /* work section done */
+
+
+/* foote star */
+
+footer .footer_upper ul {
+    display: flex;
+    text-transform: uppercase;
+    margin-left: 23%;
+}
+footer .footer_upper ul li {
+    margin-left: 40px;
+    list-style-type: none;
+    padding: 10px;
+    background-color: black;
+}
+footer .footer_upper ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+footer .footer_upper ul li a:hover {
+    color:rgb(122, 112, 112);
+  }
+
+/* lower part */
+
+footer .footer_lower img {
+    height: 200px;
+    width: 348px
+}
+.footer_lower {
+    margin-left: 45px;
+    margin-top: 80px;
+}
+
+.copyright {
+    margin: 0;
+    /* margin-left: 42px; */
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 2px;
+}
+.copyright p {
+    text-transform: capitalize;
+    margin-left: 235px;
+}
