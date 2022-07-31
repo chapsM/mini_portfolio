@@ -6,7 +6,7 @@ html,body {
     /* overflow-x: hidden; */
 }
 .container {
-    height:auto;
+    margin: auto;
     width: 1484px;
 }
 
